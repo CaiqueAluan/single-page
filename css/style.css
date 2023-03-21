@@ -13,7 +13,22 @@
     padding: 8px;
 }
 
+.sub-titulo{
+    width: fit-content;
+    /* centraliza a caixa no recipiente <body> */
+    margin: 0 auto;
+}
+
+.bg-cinza-escuro{
+    background-color: rgb(45, 45, 46);
+}
+
 #banner-top{
     width: 80%;
     margin: 0 auto;
+}
+
+#banner-top .carousel-caption{
+    padding: 6px;
+    background-color: rgba(51, 50, 53, 0.384);
 }
