@@ -16,6 +16,13 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+    <!-- CSS do plugin do lightbox -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <!-- AOS Animate CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS personalizado -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -110,7 +117,8 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 m-3 m-md-0 bg-primary p-2 text-white">
+                        <div class="col-md-3 m-3 m-md-0 bg-primary p-2 text-white" data-aos="fade-up"
+                            data-aos-duration="2000">
                             <h3>Design</h3>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod, impedit fuga
@@ -123,7 +131,8 @@
                                 numquam. Quo vitae cumque quidem blanditiis dicta.
                             </p>
                         </div>
-                        <div class="col-md-3 m-3 m-md-0 bg-secondary p-2 text-white">
+                        <div class="col-md-3 m-3 m-md-0 bg-secondary p-2 text-white" data-aos="fade-down"
+                            data-aos-duration="2000">
                             <h3>Nossa marca</h3>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod, impedit fuga
@@ -136,7 +145,7 @@
                                 numquam. Quo vitae cumque quidem blanditiis dicta.
                             </p>
                         </div>
-                        <div class="col-md-3 m-3 m-md-0 bg-warning p-2">
+                        <div class="col-md-3 m-3 m-md-0 bg-warning p-2" data-aos="fade-up" data-aos-duration="2000">
                             <h3>Consultoria</h3>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod, impedit fuga
@@ -149,7 +158,8 @@
                                 numquam. Quo vitae cumque quidem blanditiis dicta.
                             </p>
                         </div>
-                        <div class="col-md-3 m-3 m-md-0 bg-dark p-2 text-white">
+                        <div class="col-md-3 m-3 m-md-0 bg-dark p-2 text-white" data-aos="fade-down"
+                            data-aos-duration="2000">
                             <h3>Compromisso</h3>
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod, impedit fuga
@@ -175,15 +185,15 @@
 
             <!-- seção nossos planos -->
             <section id="nossos-planos" class="mt-5 mb-2">
-                <h2 class="sub-titulo border-5 border-bottom border-secondary">Nossos Planos</h2>
+                <h2 class="sub-titulo mb-5 border-5 border-bottom border-secondary">Nossos Planos</h2>
                 <p class="text-center">
                     Consulte nosso planos e preços
                 </p>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 m-3 m-md-0" data-aos="flip-left" data-aos-duration="700">
                             <div class="card">
-                                <div class="card-header bg-cinza-escuro text-center text-white">
+                                <div class="card-header p-3 bg-cinza-escuro text-center text-white">
                                     Básico
                                 </div>
                                 <!-- Some borders are removed -->
@@ -199,9 +209,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 m-3 m-md-0" data-aos="flip-left" data-aos-duration="700"
+                            data-aos-delay="650">
                             <div class="card">
-                                <div class="card-header bg-secondary text-center text-white">
+                                <div class="card-header p-3 bg-secondary text-center text-white">
                                     Pró
                                 </div>
                                 <!-- Some borders are removed -->
@@ -217,9 +228,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 m-3 m-md-0" data-aos="flip-left" data-aos-duration="700"
+                            data-aos-delay="1300">
                             <div class="card">
-                                <div class="card-header bg-cinza-escuro text-center text-white">
+                                <div class="card-header p-3 bg-cinza-escuro text-center text-white">
                                     Premium
                                 </div>
                                 <!-- Some borders are removed -->
@@ -239,8 +251,192 @@
                 </div>
 
 
+
             </section>
             <!-- final seção nossos planos -->
+
+
+
+            <!-- seção nossa equipe -->
+            <section id="nossa-equipe" class="mt-5 mb-3">
+                <h2 class="sub-titulo mb-3 border-5 border-bottom border-secondary">
+                    Nossa Equipe
+                </h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 m-3 m-md-0" data-aos="zoom-in-up" data-aos-duration="700">
+                            <div class="card">
+                                <img class="card-img-top" src="imagens/team1.jpg" alt="Foto - Joana Maranhão">
+                                <div class="card-body">
+                                    <h4 class="card-title">Joana Maranhão</h4>
+                                    <p class="card-text">Chefe de design</p>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora asperiores
+                                        cumque fugit qui quam inventore, pariatur perspiciatis. Animi suscipit
+                                        consectetur impedit perferendis dolores inventore amet qui sequi incidunt?
+                                        Magnam, tempora!
+                                    </p>
+                                    <a class="btn btn-secondary w-100" href="#" role="button">Contato</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 m-3 m-md-0" data-aos="zoom-in-up" data-aos-duration="700"
+                            data-aos-delay="700">
+                            <div class="card">
+                                <img class="card-img-top" src="imagens/team2.jpg" alt="Foto - Steve da Silva">
+                                <div class="card-body">
+                                    <h4 class="card-title">Steve da Silva</h4>
+                                    <p class="card-text">Arquiteto de soluções</p>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora asperiores
+                                        cumque fugit qui quam inventore, pariatur perspiciatis. Animi suscipit
+                                        consectetur impedit perferendis dolores inventore amet qui sequi incidunt?
+                                        Magnam, tempora!
+                                    </p>
+                                    <a class="btn btn-secondary w-100" href="#" role="button">Contato</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 m-3 m-md-0" data-aos="zoom-in-up" data-aos-duration="700"
+                            data-aos-delay="1400">
+                            <div class="card">
+                                <img class="card-img-top" src="imagens/team3.jpg" alt="Foto - Antonio Braga">
+                                <div class="card-body">
+                                    <h4 class="card-title">José Mojica</h4>
+                                    <p class="card-text">CEO</p>
+                                    <p class="card-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora asperiores
+                                        cumque fugit qui quam inventore, pariatur perspiciatis. Animi suscipit
+                                        consectetur impedit perferendis dolores inventore amet qui sequi incidunt?
+                                        Magnam, tempora!
+                                    </p>
+                                    <a class="btn btn-secondary w-100" href="#" role="button">Contato</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- final seção nossa equipe -->
+
+
+
+            <!-- seção Portifolio -->
+            <section id="portifolio" class="mt-5 mb-3">
+                <h2 class="sub-titulo mb-3 border-5 border-bottom border-secondary">
+                    Portifolio
+                </h2>
+                <div class="text-center">
+                    <a href="imagens/img-grande-1.jpg" data-lightbox="roadtrip" data-title="Espaço de trabalho">
+                        <img src="imagens/miniatura-1.jpg" alt="">
+                    </a>
+                    <a href="imagens/img-grande-2.png" data-lightbox="roadtrip" data-title="Dispositivos">
+                        <img src="imagens/miniatura-2.jpg" alt="">
+                    </a>
+                    <a href="imagens/img-grande-3.jpg" data-lightbox="roadtrip" data-title="Alta tecnologia">
+                        <img src="imagens/miniatura-3.jpg" alt="">
+                    </a>
+                    <a href="imagens/img-grande-4.jpg" data-lightbox="roadtrip" data-title="Pessoas">
+                        <img src="imagens/miniatura-4.jpg" alt="">
+                    </a>
+                    <a href="imagens/img-grande-5.jpg" data-lightbox="roadtrip" data-title="Ideia">
+                        <img src="imagens/miniatura-5.jpg" alt="">
+                    </a>
+                    <a href="imagens/img-grande-6.jpg" data-lightbox="roadtrip" data-title="Retrô">
+                        <img src="imagens/miniatura-6.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            <!-- final da seção Portifolio -->
+
+            <!-- seção cadastro -->
+            <section id="cadastro" class="mt-5 mb-3">
+                <h2 class="sub-titulo mb-3 border-5 border-bottom border-secondary">
+                    Cadastre-se
+                </h2>
+                <form action="processa.php" method="post" enctype="multipart/form-data" class="container">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Nome: </label>
+                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu Nome">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email: </label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="abc@mail.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="idade" class="form-label">idade: 
+                            <strong id="txt-idade"></strong></label>
+                        <input type="range" min="0" max="120" value="18" class="form-range" name="idade" id="idade">
+                    </div>
+
+                    <p>Sexo: </p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexo" value="Feminino">
+                        <label class="form-check-label" for="sexo">Feminino</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexo" value="Masculino">
+                        <label class="form-check-label" for="sexo">Masculino</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexo" value="Nao-binario">
+                        <label class="form-check-label" for="sexo">Não Binario</label>
+                      </div>
+
+                      <p class="mt-4">Assinale o que você faz nas horas livres</p>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Cinema" value="Cinema" name="[]diversao">
+                        <label class="form-check-label" for="Cinema">
+                          Cinema
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Shows" value="Shows" name="[]diversao">
+                        <label class="form-check-label" for="Shows">
+                          Shows
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Esportes" value="Esportes" name="[]diversao">
+                        <label class="form-check-label" for="Esportes">
+                          Esportes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Churrasco" value="Churrasco" name="[]diversao">
+                        <label class="form-check-label" for="Churrasco">
+                          Churrasco
+                        </label>
+                      </div>
+
+                      <p class="mt-4">Envie sua Foto</p>
+                      <div class="mb-3">
+                        <label for="" class="form-label">Selecione o Arquivo</label>
+                        <input type="file" class="form-control"  name="Arquivo" 
+                        placeholder=".jpg, .png, .gif">
+                      </div>
+                    </div>
+
+                    <!-- campo estado -->
+                    <div class="mb-3 container">
+                        <label for="estados" class="form-label">Em qual estado vc mora</label>
+                        <select class="form-select form-select-lg" name="estados" id="estados">
+                            
+                        </select>
+                    </div>
+                    <div class="mb-3 container">
+                        <label for="cidades" class="form-label">Cidade</label>
+                        <select class="form-select form-select-lg" name="cidades" id="cidades">
+                           
+                        </select>
+                    </div>
+                </form>
+            </section>
+
+            <!-- final seção cadastro  -->
+
         </div>
     </main>
     <footer>
@@ -254,6 +450,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+    <!-- JS do Lightbox -->
+    <script src="js/lightbox.min.js"></script>
+
+    <!-- AOS Animate JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- JS Personalizado -->
     <script src="js/code.js"></script>
