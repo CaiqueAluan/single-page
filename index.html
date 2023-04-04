@@ -44,19 +44,19 @@
                             <a class="nav-link active" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Serviços</a>
+                            <a class="nav-link active" href="#nossos-servicos">Serviços</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Planos</a>
+                            <a class="nav-link active" href="#nossos-planos">Planos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Quem Somos</a>
+                            <a class="nav-link active" href="#nossa-equipe">Quem Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Portifólio</a>
+                            <a class="nav-link active" href="#portifolio">Portifólio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Contato</a>
+                            <a class="nav-link active" href="#cadastro">Contato</a>
                         </li>
                     </ul>
 
@@ -112,8 +112,8 @@
             <!-- Final Banner superior - carrossel -->
 
             <!-- seção nossos serviços -->
-            <section id="nossos-servicos" class="mt-5 mb-2">
-                <h2 class="sub-titulo mb-5 border-bottom border-5 border-secondary">Nossos serviços</h2>
+            <section id="nossos-servicos" class="mt-5 pt-5 mb-2" >
+                <h2 class="sub-titulo mb-5 border-bottom border-5 border-secondary" >Nossos serviços</h2>
 
                 <div class="container">
                     <div class="row">
@@ -184,7 +184,7 @@
 
 
             <!-- seção nossos planos -->
-            <section id="nossos-planos" class="mt-5 mb-2">
+            <section id="nossos-planos" class="mt-5 pt-5 mb-2">
                 <h2 class="sub-titulo mb-5 border-5 border-bottom border-secondary">Nossos Planos</h2>
                 <p class="text-center">
                     Consulte nosso planos e preços
@@ -258,7 +258,7 @@
 
 
             <!-- seção nossa equipe -->
-            <section id="nossa-equipe" class="mt-5 mb-3">
+            <section id="nossa-equipe" class="mt-5 pt-5 mb-3">
                 <h2 class="sub-titulo mb-3 border-5 border-bottom border-secondary">
                     Nossa Equipe
                 </h2>
@@ -322,7 +322,7 @@
 
 
             <!-- seção Portifolio -->
-            <section id="portifolio" class="mt-5 mb-3">
+            <section id="portifolio" class="mt-5 pt-5 mb-3">
                 <h2 class="sub-titulo mb-3 border-5 border-bottom border-secondary">
                     Portifolio
                 </h2>
@@ -350,7 +350,7 @@
             <!-- final da seção Portifolio -->
 
             <!-- seção cadastro -->
-            <section id="cadastro" class="mt-5 mb-3">
+            <section id="cadastro" class="mt-5 pt-5 mb-3">
                 <h2 class="sub-titulo mb-3 border-5 border-bottom border-secondary">
                     Cadastre-se
                 </h2>
@@ -366,7 +366,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="idade" class="form-label">idade: 
+                        <label for="idade" class="form-label">idade:
                             <strong id="txt-idade"></strong></label>
                         <input type="range" min="0" max="120" value="18" class="form-range" name="idade" id="idade">
                     </div>
@@ -375,73 +375,93 @@
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="sexo" value="Feminino">
                         <label class="form-check-label" for="sexo">Feminino</label>
-                      </div>
-                      <div class="form-check form-check-inline">
+                    </div>
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="sexo" value="Masculino">
                         <label class="form-check-label" for="sexo">Masculino</label>
-                      </div>
-                      <div class="form-check form-check-inline">
+                    </div>
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="sexo" value="Nao-binario">
                         <label class="form-check-label" for="sexo">Não Binario</label>
-                      </div>
+                    </div>
 
-                      <p class="mt-4">Assinale o que você faz nas horas livres</p>
-                      <div class="form-check">
+                    <p class="mt-4">Assinale o que você faz nas horas livres</p>
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="Cinema" value="Cinema" name="[]diversao">
                         <label class="form-check-label" for="Cinema">
-                          Cinema
+                            Cinema
                         </label>
-                      </div>
-                      <div class="form-check">
+                    </div>
+                    <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="Shows" value="Shows" name="[]diversao">
                         <label class="form-check-label" for="Shows">
-                          Shows
+                            Shows
                         </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="Esportes" value="Esportes" name="[]diversao">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Esportes" value="Esportes"
+                            name="[]diversao">
                         <label class="form-check-label" for="Esportes">
-                          Esportes
+                            Esportes
                         </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="Churrasco" value="Churrasco" name="[]diversao">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Churrasco" value="Churrasco"
+                            name="[]diversao">
                         <label class="form-check-label" for="Churrasco">
-                          Churrasco
+                            Churrasco
                         </label>
-                      </div>
+                    </div>
 
-                      <p class="mt-4">Envie sua Foto</p>
-                      <div class="mb-3">
+                    <p class="mt-4">Envie sua Foto</p>
+                    <div class="mb-3">
                         <label for="" class="form-label">Selecione o Arquivo</label>
-                        <input type="file" class="form-control"  name="Arquivo" 
-                        placeholder=".jpg, .png, .gif">
-                      </div>
+                        <input type="file" class="form-control" name="Arquivo" placeholder=".jpg, .png, .gif">
                     </div>
+        </div>
 
-                    <!-- campo estado -->
-                    <div class="mb-3 container">
-                        <label for="estados" class="form-label">Em qual estado vc mora</label>
-                        <select class="form-select form-select-lg" name="estados" id="estados">
-                            
-                        </select>
-                    </div>
-                    <div class="mb-3 container">
-                        <label for="cidades" class="form-label">Cidade</label>
-                        <select class="form-select form-select-lg" name="cidades" id="cidades">
-                           
-                        </select>
-                    </div>
-                </form>
-            </section>
+        <!-- campo estado -->
+        <div class="mb-3 container">
+            <label for="estados" class="form-label">Em qual estado vc mora</label>
+            <select class="form-select form-select-lg" name="estados" id="estados">
 
-            <!-- final seção cadastro  -->
+            </select>
+        </div>
+        <div class="mb-3 container">
+            <label for="cidades" class="form-label">Cidade</label>
+            <select class="form-select form-select-lg" name="cidades" id="cidades">
+
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+
+        </form>
+        </section>
+
+        <!-- final seção cadastro  -->
 
         </div>
     </main>
-    <footer>
+
+    <footer class="p-5 mt-5 fundo-laranja text-light">
+        <p>Onde Estamos:</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.7168508253067!2d-45.85890620000001!3d-23.1805322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bc8557f3105%3A0x26bc31b7142cc60f!2sR.%20Saigiro%20Nakamura%2C%20400%20-%20Vila%20Industrial%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012220-280!5e0!3m2!1spt-BR!2sbr!4v1680630932175!5m2!1spt-BR!2sbr"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <br>
+
+        <iframe width="100%" height="600" src="https://www.youtube.com/embed/9qdHBXcwayo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
 
     </footer>
+
+    <a href="#" class="seta-sobe"><i class="fa-solid fa-up-long"></i></a>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">

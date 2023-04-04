@@ -63,5 +63,17 @@ estados.addEventListener('change', () => {
 
 })
 
-
+// Mostra a seta quando a rolagem for maior que X
+const rolagem = ()=>{
+    const tela = document.querySelector('html')
+    const seta= document.querySelector('.seta-sobe')
+    //console.log(tela.scrollTop)
+    if(tela.scrollTop > 600){
+        seta.style.display = 'block'
+    }else{
+        seta.style.display = 'none'
+    }
+}
+//window.addEventListener('scroll', rolagem)
+window.onscroll = ()=> rolagem()
 
